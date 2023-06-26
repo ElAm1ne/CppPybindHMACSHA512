@@ -1,3 +1,0 @@
-[submodule "hmac_code/pybind11"]
-	path = hmac_code/pybind11
-	url = https://github.com/pybind/pybind11.git
