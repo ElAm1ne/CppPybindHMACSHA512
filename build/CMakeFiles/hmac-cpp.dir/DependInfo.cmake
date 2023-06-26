@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/code_blocks/example/main.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/code_blocks/example/main.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/code_blocks/example/main.cpp.obj.d"
-  "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha256.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha256.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha256.cpp.obj.d"
-  "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha512.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha512.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha512.cpp.obj.d"
+  "C:/Users/user/Desktop/HMAC/CppPybindHMACSHA512/hmac-cpp/code_blocks/example/main.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/code_blocks/example/main.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/code_blocks/example/main.cpp.obj.d"
+  "C:/Users/user/Desktop/HMAC/CppPybindHMACSHA512/hmac-cpp/sha256.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha256.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha256.cpp.obj.d"
+  "C:/Users/user/Desktop/HMAC/CppPybindHMACSHA512/hmac-cpp/sha512.cpp" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha512.cpp.obj" "msvc" "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha512.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

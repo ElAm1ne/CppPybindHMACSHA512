@@ -6,6 +6,7 @@ namespace py = pybind11;
 PYBIND11_MODULE(hmac_cpp, m) {
     m.doc() = "pybind11 hmac_cpp plugin"; 
 
+
     py::enum_<hmac::TypeHash>(m, "TypeHash")
         .value("SHA256", hmac::TypeHash::SHA256)
         .value("SHA512", hmac::TypeHash::SHA512)

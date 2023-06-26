@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\user\Desktop\CppPybindHMACSHA512\hmac-cpp
+CXX_INCLUDES = -IC:\Users\user\Desktop\HMAC\CppPybindHMACSHA512\hmac-cpp
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG
+CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MDd /Zi /Ob0 /Od /RTC1
 

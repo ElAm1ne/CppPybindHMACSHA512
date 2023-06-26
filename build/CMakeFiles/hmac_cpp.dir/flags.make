@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe
 CXX_DEFINES = -Dhmac_cpp_EXPORTS
 
-CXX_INCLUDES = -IC:\Users\user\Desktop\CppPybindHMACSHA512\hmac-cpp -external:IC:\Users\user\Desktop\CppPybindHMACSHA512\hmac-cpp\pybind11\include -external:IC:\Users\user\AppData\Local\Programs\Python\Python310\Include -external:W0
+CXX_INCLUDES = -IC:\Users\user\Desktop\HMAC\CppPybindHMACSHA512\hmac-cpp -external:IC:\Users\user\Desktop\HMAC\CppPybindHMACSHA512\hmac-cpp\pybind11\include -external:IC:\Users\user\AppData\Local\Programs\Python\Python310\Include -external:W0
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /GL /bigobj /MP
+CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MDd /Zi /Ob0 /Od /RTC1 /bigobj
 
