@@ -1,0 +1,251 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilateur d'optimisation Microsoft (R) C/C++ version 19.36.32532 pour x64
+      Copyright (C) Microsoft Corporation. Tous droits réservés.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.36.32532.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Remarque : inclusion du fichier :  C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Remarque : inclusion du fichier :  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Compilateur d'optimisation Microsoft (R) C/C++ version 19.36.32532 pour x64
+      Copyright (C) Microsoft Corporation. Tous droits réservés.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.36.32532.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Remarque : inclusion du fichier :  C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Remarque : inclusion du fichier :  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-0l95tu"
+      binary: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-0l95tu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-0l95tu
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a3631/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a3631.dir\\build.make CMakeFiles/cmTC_a3631.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-0l95tu'
+        Building C object CMakeFiles/cmTC_a3631.dir/CMakeCCompilerABI.c.obj
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a3631.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0l95tu --filter-prefix="Remarque┬á: inclusion du fichier┬á:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a3631.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_a3631.dir/ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        CMakeCCompilerABI.c
+        Remarque┬á: inclusion du fichier┬á:  C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCompilerABI.h
+        Linking C executable cmTC_a3631.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a3631.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a3631.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a3631.dir\\objects1.rsp  /out:cmTC_a3631.exe /implib:cmTC_a3631.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0l95tu\\cmTC_a3631.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_a3631.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a3631.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a3631.dir/manifest.res CMakeFiles\\cmTC_a3631.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a3631.dir\\objects1.rsp /out:cmTC_a3631.exe /implib:cmTC_a3631.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0l95tu\\cmTC_a3631.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a3631.dir/intermediate.manifest CMakeFiles\\cmTC_a3631.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a3631.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a3631.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a3631.dir/manifest.res CMakeFiles\\cmTC_a3631.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a3631.dir\\objects1.rsp /out:cmTC_a3631.exe /implib:cmTC_a3631.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0l95tu\\cmTC_a3631.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a3631.dir/intermediate.manifest CMakeFiles\\cmTC_a3631.dir/manifest.res
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-0l95tu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-gceifr"
+      binary: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-gceifr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-gceifr
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_beee9/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_beee9.dir\\build.make CMakeFiles/cmTC_beee9.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-gceifr'
+        Building CXX object CMakeFiles/cmTC_beee9.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_beee9.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gceifr --filter-prefix="Remarque┬á: inclusion du fichier┬á:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_beee9.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_beee9.dir/ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        CMakeCXXCompilerABI.cpp
+        Remarque┬á: inclusion du fichier┬á:  C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCompilerABI.h
+        Linking CXX executable cmTC_beee9.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_beee9.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_beee9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_beee9.dir\\objects1.rsp  /out:cmTC_beee9.exe /implib:cmTC_beee9.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gceifr\\cmTC_beee9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_beee9.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_beee9.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_beee9.dir/manifest.res CMakeFiles\\cmTC_beee9.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_beee9.dir\\objects1.rsp /out:cmTC_beee9.exe /implib:cmTC_beee9.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gceifr\\cmTC_beee9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_beee9.dir/intermediate.manifest CMakeFiles\\cmTC_beee9.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_beee9.dir/intermediate.manifest /out:CMakeFiles\\cmTC_beee9.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_beee9.dir/manifest.res CMakeFiles\\cmTC_beee9.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_beee9.dir\\objects1.rsp /out:cmTC_beee9.exe /implib:cmTC_beee9.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gceifr\\cmTC_beee9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_beee9.dir/intermediate.manifest CMakeFiles\\cmTC_beee9.dir/manifest.res
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-gceifr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "hmac-cpp/pybind11/tools/pybind11Common.cmake:268 (check_cxx_compiler_flag)"
+      - "hmac-cpp/pybind11/tools/pybind11Common.cmake:332 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "hmac-cpp/pybind11/tools/pybind11Common.cmake:377 (_pybind11_generate_lto)"
+      - "hmac-cpp/pybind11/CMakeLists.txt:210 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-ogkffm"
+      binary: "C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-ogkffm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-ogkffm
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f098a/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f098a.dir\\build.make CMakeFiles/cmTC_f098a.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-ogkffm'
+        Building CXX object CMakeFiles/cmTC_f098a.dir/src.cxx.obj
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f098a.dir\\src.cxx.obj.d --working-dir=C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogkffm --filter-prefix="Remarque┬á: inclusion du fichier┬á:  " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_MSVC_GL_LTCG  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc  /MDd /Zi /Ob0 /Od /RTC1   /GL /showIncludes /FoCMakeFiles\\cmTC_f098a.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_f098a.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogkffm\\src.cxx
+        src.cxx
+        Linking CXX executable cmTC_f098a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f098a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f098a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f098a.dir\\objects1.rsp  /out:cmTC_f098a.exe /implib:cmTC_f098a.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogkffm\\cmTC_f098a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  -LTCG kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_f098a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_f098a.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f098a.dir/manifest.res CMakeFiles\\cmTC_f098a.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f098a.dir\\objects1.rsp /out:cmTC_f098a.exe /implib:cmTC_f098a.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogkffm\\cmTC_f098a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console -LTCG kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f098a.dir/intermediate.manifest CMakeFiles\\cmTC_f098a.dir/manifest.res
+        LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+        Génération de code en cours
+        Fin de la génération du code
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_f098a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_f098a.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f098a.dir/manifest.res CMakeFiles\\cmTC_f098a.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f098a.dir\\objects1.rsp /out:cmTC_f098a.exe /implib:cmTC_f098a.lib /pdb:C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ogkffm\\cmTC_f098a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console -LTCG kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f098a.dir/intermediate.manifest CMakeFiles\\cmTC_f098a.dir/manifest.res
+        LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/LTCG'
+        Génération de code en cours
+        Fin de la génération du code
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/user/Desktop/CppPybindHMACSHA512/build/CMakeFiles/CMakeScratch/TryCompile-ogkffm'
+        
+      exitCode: 0
+...

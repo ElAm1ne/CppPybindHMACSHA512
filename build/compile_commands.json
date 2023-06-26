@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /FoCMakeFiles\\hmac-cpp.dir\\hmac-cpp\\code_blocks\\example\\main.cpp.obj /FdCMakeFiles\\hmac-cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\code_blocks\\example\\main.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/code_blocks/example/main.cpp",
+  "output": "CMakeFiles/hmac-cpp.dir/hmac-cpp/code_blocks/example/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /FoCMakeFiles\\hmac-cpp.dir\\hmac-cpp\\sha256.cpp.obj /FdCMakeFiles\\hmac-cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\sha256.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha256.cpp",
+  "output": "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha256.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /FoCMakeFiles\\hmac-cpp.dir\\hmac-cpp\\sha512.cpp.obj /FdCMakeFiles\\hmac-cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\sha512.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha512.cpp",
+  "output": "CMakeFiles/hmac-cpp.dir/hmac-cpp/sha512.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dhmac_cpp_EXPORTS -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp -external:IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\pybind11\\include -external:IC:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\Include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /GL /bigobj /MP /FoCMakeFiles\\hmac_cpp.dir\\hmac-cpp\\bindings.cpp.obj /FdCMakeFiles\\hmac_cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\bindings.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/bindings.cpp",
+  "output": "CMakeFiles/hmac_cpp.dir/hmac-cpp/bindings.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dhmac_cpp_EXPORTS -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp -external:IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\pybind11\\include -external:IC:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\Include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /GL /bigobj /MP /FoCMakeFiles\\hmac_cpp.dir\\hmac-cpp\\sha256.cpp.obj /FdCMakeFiles\\hmac_cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\sha256.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha256.cpp",
+  "output": "CMakeFiles/hmac_cpp.dir/hmac-cpp/sha256.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/CppPybindHMACSHA512/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dhmac_cpp_EXPORTS -IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp -external:IC:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\pybind11\\include -external:IC:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\Include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /EHsc /MD /O2 /Ob2 /DNDEBUG /GL /bigobj /MP /FoCMakeFiles\\hmac_cpp.dir\\hmac-cpp\\sha512.cpp.obj /FdCMakeFiles\\hmac_cpp.dir/ /FS -c C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\sha512.cpp",
+  "file": "C:/Users/user/Desktop/CppPybindHMACSHA512/hmac-cpp/sha512.cpp",
+  "output": "CMakeFiles/hmac_cpp.dir/hmac-cpp/sha512.cpp.obj"
+}
+]

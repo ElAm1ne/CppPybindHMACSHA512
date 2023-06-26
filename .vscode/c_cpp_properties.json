@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "windows-clang-x86",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\pybind11\\include\\pybind11",
+                "${workspaceFolder}/hmac-cpp"
+            ],
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-clang-x86",
+            "compilerArgs": [
+                ""
+            ]
+        },
+        {
+            "name": "MSVC",
+            "includePath": [
+                "c:\\Users\\user\\Desktop\\CppPybindHMACSHA512/**",
+                "C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp\\pybind11/**",
+                "C:\\Users\\user\\Desktop\\CppPybindHMACSHA512\\hmac-cpp/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-msvc-x64",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
