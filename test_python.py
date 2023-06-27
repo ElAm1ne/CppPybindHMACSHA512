@@ -23,8 +23,14 @@ for i in range(0,9):
 
     if str(output1) != str(list_true_hmac[i]) :
         failed_tests += 1
-        print("The test Failed")
+        print("-----------------------------")
+        print(f"Test n°{i+1} Failed.")
+        print("-----------------------------")
         print(False)
+    else:
+        print("--------------------------------------------")
+        print(f"Test n°{i+1} passed successfully.")
+        print("--------------------------------------------")
     
 print(f"Number of failed tests is {failed_tests}.")
 print(f"Number of passed tests is {total_tests - failed_tests}.")
