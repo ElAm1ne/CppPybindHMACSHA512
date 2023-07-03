@@ -12,5 +12,5 @@ include_directories(hmac-cpp)
 
 add_subdirectory(hmac-cpp/pybind11)
 
-add_executable(hmac-cpp hmac-cpp/code_blocks/example/main.cpp hmac-cpp/sha256.cpp hmac-cpp/sha512.cpp)
+add_executable(hmac-cpp-exe hmac-cpp/code_blocks/example/main.cpp hmac-cpp/sha256.cpp hmac-cpp/sha512.cpp)
 pybind11_add_module(hmac_cpp hmac-cpp/bindings.cpp hmac-cpp/sha256.cpp hmac-cpp/sha512.cpp)
