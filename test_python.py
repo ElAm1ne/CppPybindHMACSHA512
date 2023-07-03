@@ -1,4 +1,4 @@
-import hmac_cpp
+from build import hmac_cpp
 import secrets
 import binascii
 
