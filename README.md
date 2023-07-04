@@ -73,6 +73,8 @@ où <key> est votre clé de 512 bits en format hexadécimal et <message> est le 
 
 ## Exemples d'usage : 
 
+**Bon exemple :**
+
 ```
 
 python3 hmac_api.py aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899 "Hello, World!"
@@ -87,4 +89,35 @@ Le HMAC généré est : 5da93089e5b539eedc0527e61745016056ce3eae5e35cb4e3dc620ab
 
 ```
 
+**Exemple avec clé < 512 bits :**
+
+```
+
+python3 hmac_api.py aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff0011223344556677889 "Hello, World!"
+
+```
+
+Devra retourner : 
+
+```
+
+La clé n'est pas de 512 bits, elle est de 508 bits.
+
+```
+
+**Exemple avec clé non hexadécimal :**
+
+```
+
+python3 hmac_api.py aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff001122334455667788k9 "Hello, World!"
+
+```
+
+Devra retourner : 
+
+```
+
+La clé n'est pas en format hexadécimal.
+
+```
 
