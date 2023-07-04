@@ -37,16 +37,7 @@ git clone https://github.com/ElAm1ne/CppPybindHMACSHA512.git
 
 ```
 
-### Étape 3: Installer les dépendances Python
-Dans le répertoire du projet, installez les dépendances Python en exécutant :
-
-```
-
-pip install -r requirements.txt
-
-```
-
-### Étape 4: Compiler le code
+### Étape 3: Compiler le code
 Allez dans le répertoire du projet et construisez le code :
 
 ```
@@ -57,7 +48,7 @@ cmake ..
 make
 ```
 
-### Étape 5: Test de l'API
+### Étape 4: Test de l'API
 
 Après avoir construit l'API, vous pouvez tester son fonctionnement en exécutant le script de test test_python.py à partir du dossier parent CppPybindHMACSHA512 :
 
@@ -68,7 +59,7 @@ python3 test_python.py
 
 Si les tests sont passés avec succès, vous êtes prêt à utiliser l'API HMACSHA512.
 
-### Étape 6: Utilisation de l'API
+### Étape 5: Utilisation de l'API
 
 Pour générer un HMAC à l'aide d'une clé et d'un message, vous pouvez exécuter le script de l'API de la manière suivante :
 
@@ -80,7 +71,8 @@ python3 hmac_api.py <key> <message>
 
 où <key> est votre clé de 512 bits en format hexadécimal et <message> est le message pour lequel vous souhaitez générer un HMAC. Remplacez nom_du_fichier.py par le nom réel de votre fichier Python. Si la clé ou le message ne sont pas conformes, une erreur sera renvoyée.
 
-### Étape 7: Exemples d'usage
+## Exemples d'usage : 
+
 ```
 
 python3 hmac_api.py aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899 "Hello, World!"
@@ -94,3 +86,5 @@ Devra retourner :
 Le HMAC généré est : 5da93089e5b539eedc0527e61745016056ce3eae5e35cb4e3dc620ab48aab5c136f1869beabbeb29ac30e172190c426219a0ff65776805d00204930d318e8836
 
 ```
+
+
