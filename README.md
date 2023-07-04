@@ -3,7 +3,7 @@
 Le fichier PYD a été compilé pour windows x64 amd, donc il ne marchera pas sur les mac/linux.
 
 
-HMACSHA512 Python API
+## HMACSHA512 Python API
 
 Introduction
 
@@ -13,12 +13,14 @@ Pré-requis
 
 Un système d'exploitation basé sur Debian (testé sur Debian, mais devrait fonctionner sur d'autres distributions comme Ubuntu).
 Les packages suivants doivent être installés:
+
 build-essential
 cmake
 mingw-w64
-Instructions d'installation
 
-Étape 1: Installation des dépendances
+## Instructions d'installation
+
+### Étape 1: Installation des dépendances
 Ouvrez un terminal et exécutez les commandes suivantes pour installer les packages nécessaires:
 
 ```
@@ -27,7 +29,7 @@ sudo apt-get update
 sudo apt-get install build-essential cmake mingw-w64
 ```
 
-Étape 2: Cloner le dépôt
+### Étape 2: Cloner le dépôt
 Clonez le dépôt contenant le code source de l'API :
 
 ```
@@ -36,7 +38,7 @@ git clone https://github.com/ElAm1ne/CppPybindHMACSHA512.git
 
 ```
 
-Étape 3: Installer les dépendances Python
+### Étape 3: Installer les dépendances Python
 Dans le répertoire du projet, installez les dépendances Python en exécutant :
 
 ```
@@ -45,7 +47,7 @@ pip install -r requirements.txt
 
 ```
 
-Étape 4: Compiler le code
+### Étape 4: Compiler le code
 Allez dans le répertoire du projet et construisez le code :
 
 ```
