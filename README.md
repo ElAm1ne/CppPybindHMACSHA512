@@ -73,7 +73,7 @@ Pour générer un HMAC à l'aide d'une clé et d'un message, vous pouvez exécut
 
 ```
 
-python3 nom_du_fichier.py <key> <message>
+python3 hmac_api.py <key> <message>
 
 ```
 
