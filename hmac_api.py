@@ -3,14 +3,18 @@ import binascii
 from build import hmac_cpp
 
 def validate_key(key):
-    key_length = len(key) * 4
-    if key_length != 512:
-        raise ValueError(f"La clé n'est pas de 512 bits, elle est de {key_length} bits.")
+    # Check if key is hexadecimal
     try:
         int(key, 16)
     except ValueError:
         raise ValueError("La clé n'est pas en format hexadécimal.")
-        
+
+    # Check if key is 512 bits
+    key_length = len(key) * 4
+    if key_length != 512:
+        raise ValueError(f"La clé n'est pas de 512 bits, elle est de {key_length} bits.")
+
+
 def validate_and_generate_hmac(key, message):
     # Validate key
     validate_key(key)
